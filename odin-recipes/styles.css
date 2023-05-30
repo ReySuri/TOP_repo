@@ -1,0 +1,21 @@
+h1.Title {
+    background-color: red;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+button{
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+
+body{
+    background-color: yellow;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
