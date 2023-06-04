@@ -1,21 +1,31 @@
 h1.Title {
-    background-color: red;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
+    padding: 10px;
+    width: 200px;
+    margin: 16px auto;
+    border-style: dotted;
+    border-width: 12px;
+    border-color: white;
 }
 
 button{
-    background-color: blue;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
     font-size: 20px;
-    color: white;
+    border: 3px solid black;
+    margin: 0px;
 }
 
 body{
-    background-color: yellow;
+    color: black;
+    background-color: rgb(185, 237, 219);
 }
 
-img{
-    width: 100px;
-    height: auto;
+.menu{
+    display: inline-block;
+    background-color: black;
+    margin-bottom:16px;
 }
