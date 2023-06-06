@@ -1,13 +1,51 @@
-h1.Title {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 800;
-    padding: 10px;
-    width: 200px;
-    margin: 16px auto;
-    border-style: dotted;
-    border-width: 12px;
-    border-color: white;
+.header-container {
+    background-color: tan;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login{
+    margin-left: auto;
+}
+
+.sign-up{
+    margin-left: 20px;
+}
+
+.menu-container{
+    display: flex;
+    background-color: rgb(74, 43, 0);
+    color: white;
+    padding: 20px 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links{
+    display: flex;
+
 }
 
 button{
@@ -19,13 +57,14 @@ button{
     margin: 0px;
 }
 
-body{
-    color: black;
-    background-color: rgb(185, 237, 219);
+.login,
+.sign-up,
+.subscribe {
+    font-size: 20px;
 }
 
-.menu{
-    display: inline-block;
-    background-color: black;
-    margin-bottom:16px;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
