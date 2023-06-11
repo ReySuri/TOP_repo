@@ -26,7 +26,7 @@ body{
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 10px;
+    
 }
 
 ul{
@@ -62,16 +62,25 @@ a{
     color: #F9FAF8;
 }
 
-.content-item{
+.content-item-left{
     /*border: 5px solid white; /*for debugging*/
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
-    align-self: center;
+}
+
+.content-item-right{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin-left: 60px;
+    /*border: 5px solid white; /*for debugging*/
+
+
 }
 
 img{
-    width: 280px;
+    width: 300px;
     height: 150px;
 }
 
