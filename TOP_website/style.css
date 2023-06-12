@@ -159,6 +159,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-bottom: 30px;
 }
 
 .modal{
@@ -195,4 +196,17 @@ a{
     border: 2px solid white;
     padding: 5px 20px;
     color: #F9FAF8;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px 0;
+}
+
+.footer-text{
+    color: #E5E7EB;
+    font-size: 16px;
 }
